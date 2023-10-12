@@ -1,5 +1,5 @@
 import "./style.scss";
 
-import barba from "@barba/core";
-import { gsap } from "./gsap-trial/all.js";
+import { gsap, ScrollTrigger, ScrollSmoother } from "./gsap-trial/all.js";
 
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
